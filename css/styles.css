@@ -338,7 +338,7 @@ margin:0 auto;
         /* font-size: 8rem; */
         filter:blur(1px);
         /* neon */
-        text-shadow: 0 0 0.72rem darkseagreen;
+        text-shadow: 0 0 0.72rem crimson;
         filter:blur(1px);
         filter: brightness(360%);
         filter: contrast(360%);
