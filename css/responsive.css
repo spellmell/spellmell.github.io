@@ -17,75 +17,86 @@
 
 @media only screen and (min-width: 360px) and (max-width:576px) {
     html{
-        max-width: 360px;
-        width: 90%;
-        font-size: 36px;
-    }
-    .background_wave{
-        background-size: contain;
-    }
-    .backgrounds{
-        background-size: cover;
+        width: 100%;
+        height: 100%;
+        font-size: 18px;
     }
     body{
-        max-width: 360px;
         width: auto;
+        height: auto;
     }
-    hr {
-        border:dashed 0.36rem darkorange;
+    #about{
+        visibility:visible;
     }
-    h1,h2{
-        font-size: 2rem;
+    .background_wave{
+        visibility: hidden;
     }
-    #body{
-        display: contents;
-        max-width: 360px;
-        width: auto;
-        top: 5rem;
-        left: 0.36rem;
+    .backgrounds{
+        visibility: visible;
+    }
+    .reborde {
+        -webkit-text-stroke: 0.045rem oldlace;
     }
     .spellmell{
-        left: 0.56rem;
-        font-size: 4rem;
+        margin: -2rem auto 2rem -4rem;
+        font-size: 3rem;
     }
-    .img_profile{
-        width: 12rem;
-        height: 12rem;
-        float:none;
+    h2{
+        font-size: 1rem;
     }
-    .card1,.card2,.card3{
-        display:block;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        left: -2rem;
-        font-size: 1.36rem;
-    }
-    .card1{
-        min-height: 20rem;
-    }
-    .card3{
-        margin-bottom: 1500px;
+    .title{
+        font-size: 1rem;
     }
     .text{
-        font-size: 0.36rem;
+        font-size: 0.72rem;
     }
-    #foot{
-        display: block;
-        width: 100%;
-        height: 500px;
-        /* overflow-y: scroll; */
+    #body{
+        display: inline-block;
+        width: auto;
+        top: 4rem;
+        left: 0;
     }
-    .foot_contents{
-        width: 90%;
-        margin: 1rem auto -2rem auto;
-        padding: 1rem;
+    .bodyFlow{
+        width: 350px;
+    }
+    .gridItems{
+        width: 250px;
+    }
+    .card1, .card2, .card3{
+        width: 320px;
+        min-width: 320px;
         text-align: center;
     }
-    #social_icons_conteiner{
-        width: 90%;
-        margin: 0 auto;
-        transform: translateY(-310px);
+    .card2 {
+        margin-left: -1.5rem;
+        margin-top: -20rem;
+    }
+    .card3{
+        margin-bottom:8rem;
+    }
+    #foot{
+        display: inline-block;
+        padding: 0.72rem;
+        left: 0;
+        bottom: 0;
+        width: auto;
+        height: 250px;
+    }
+    .foot_contents{
+        width: auto;
+        padding: 0.36rem;
+        font-size: 0.6rem;
+    }
+    .foot_contents > h2{
+        font-size: 0.72rem;
+    }
+    .fa-grav{
+        visibility: collapse;
+    }
+    #social_icons_conteiner {
+        position: fixed;
+        width: auto;
+        bottom: 14.5rem;
     }
 }
 
