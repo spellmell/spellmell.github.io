@@ -175,10 +175,11 @@ button:hover{
     border: solid 0.36rem darkorange;
     outline: solid 0.18rem oldlace;
     box-shadow: 0.18rem 0.18rem 0.36rem #21212155;
-    background-color:#c94b4b;
-    background: #c94b4b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color:darkcyan;
+    background: #darkcyan;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #48b1bf, darkcyan);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #48b1bf, darkcyan); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     /* opacity: 98%; */
     transition: 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -287,15 +288,16 @@ margin:0 auto;
     border-radius: 0.36rem;   
 }
 
-.sign{
+.starSmall{
     z-index: 10;
     width: 100%;
     height: 100%;
     margin:0 auto;
     filter: brightness(90%) contrast(120%) blur(0.5px);
     filter: drop-shadow(0.18rem 0.18rem 0.18rem crimson);
-    opacity: 54%;
+    opacity: 54;
 }
+
 .spellstar{
     z-index: 100;
     width: 100%;
