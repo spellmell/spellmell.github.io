@@ -154,6 +154,14 @@ i{
     font-weight: 700;
 }
 
+.qrws{
+    width: 6rem;
+    height: 6rem;
+    float: none;
+    border-radius: 0.36rem;
+    border: solid 0.36rem darkorange;
+}
+
 button{
     font-size: 1rem;
     color:oldlace;
