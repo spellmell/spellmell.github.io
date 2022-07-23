@@ -4,37 +4,42 @@
     align-items: center;
     justify-content: center;
     position:fixed;
-    bottom: 150px;
-    right: 50px;
-	width: 360px;
-	max-width:36rem;
-    height: 2rem;
+    bottom: 6.66rem;
+	width: 100%;
+    height: auto;
     margin: 0 1rem;
     border-radius: 50%;
     text-decoration: none;
 }
 #social_icons_child > a > i{
     z-index: 4;
-    margin: 0 0.36rem;
-    padding: 0.63rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0.36rem;
+    padding: 1.18rem;
     width: 1rem;
     height: 1rem;
-    font-size: 1rem;
+    font-size: 2rem;
+    text-decoration-style: none;
     color: oldlace;
-    background-color: black;
+    background-color: darkcyan;
     border-radius: 50%;
     border: solid 0.36rem darkorange;
-    text-decoration: none;
     transition: 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
     
 }
 #social_icons_child > a:hover > i {
-    z-index: 4;
+    z-index: 5;
     margin-top: -2.22rem;
-    width: 1rem;
-    height: 1rem;
-    color:darkcyan;
+    padding: 2rem;
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
     border-radius: 50%;
-    text-decoration: none;
+    outline: double 3rem tomato;
+    box-shadow: 0 0 3rem darkorange;
+    filter: brightness(150%),contrast(150%);
     transition: 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
