@@ -38,8 +38,27 @@
     height: 5rem;
     font-size: 3rem;
     border-radius: 50%;
-    outline: double 3rem tomato;
+    outline: double 3rem crimson;
     box-shadow: 0 0 3rem darkorange;
     filter: brightness(150%),contrast(150%);
+    transition: 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.socialnav_text{
+    visibility: collapse;
+    z-index: 6;
+    position:sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.18rem;
+    color: oldlace;
+}
+#social_icons_child > a:hover > .socialnav_text{
+    visibility: visible;
+    position: relative;
+    top:-1rem;
+    font-size: 1rem;
+    text-shadow: 0 0 .36rem black;
+    transform: rotateZ(360deg);
     transition: 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
