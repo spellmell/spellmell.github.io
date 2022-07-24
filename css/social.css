@@ -1,5 +1,5 @@
 #social_icons_conteiner {
-    z-index: 4;
+    z-index: 101;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +12,7 @@
     text-decoration: none;
 }
 #social_icons_child > a > i{
-    z-index: 4;
+    z-index: 101;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,6 @@
     width: 1rem;
     height: 1rem;
     font-size: 2rem;
-    text-decoration-style: none;
     color: oldlace;
     background-color: darkcyan;
     border-radius: 50%;
@@ -31,7 +30,7 @@
     
 }
 #social_icons_child > a:hover > i {
-    z-index: 5;
+    z-index: 102;
     margin-top: -2.22rem;
     padding: 2rem;
     width: 5rem;
@@ -40,12 +39,13 @@
     border-radius: 50%;
     outline: double 3rem crimson;
     box-shadow: 0 0 3rem darkorange;
-    filter: brightness(150%),contrast(150%);
+    filter: brightness(150%);
+    filter: contrast(150%);
     transition: 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .socialnav_text{
     visibility: collapse;
-    z-index: 6;
+    z-index: 103;
     position:sticky;
     display: flex;
     align-items: center;
@@ -59,6 +59,6 @@
     top:-1rem;
     font-size: 1rem;
     text-shadow: 0 0 .36rem black;
-    transform: rotateZ(360deg);
+    transform: rotateZ(720deg);
     transition: 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }

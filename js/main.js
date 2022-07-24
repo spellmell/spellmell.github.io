@@ -9,3 +9,18 @@ function card1Switcher(page){
     }
   }
 }
+
+// resize cards on scroll
+(() => {
+  let cardos = document.getElementById("card2");
+  let cartres = document.getElementById("card3");
+  window.addEventListener(newFunction(), function () {
+    let value = window.scrollY;
+    cardos.style.marginRight = `${value * 100}px`;
+    cartres.style.marginRight = `${value * 100}px`;
+  });
+
+  function newFunction() {
+    return 'scroll';
+  }
+})();
