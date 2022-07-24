@@ -36,7 +36,7 @@ html{
     height: auto;
     top: 0;
     left: 0;
-    font-size: 18px;
+    font-size: 112.5%; /* with a 16px base 112.5% = 18px */
     background-color: #000000;
 }
 
