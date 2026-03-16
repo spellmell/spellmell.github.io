@@ -21,12 +21,14 @@ import {
 import { translations, Language } from './constants';
 
 const YeksemenebStar = ({ className = "w-full h-full" }: { className?: string }) => (
+  <a href="#top" className="text-sm font-medium hover:text-brand-500 transition-colors">
   <img 
     src="img/estrella_yeksemeneb_blanca.svg" 
     alt="Spellmell Star" 
     className={className}
     onError={(e) => { e.currentTarget.src = 'https://picsum.photos/seed/star/100/100' }}
   />
+  </a>
 );
 
 const Navbar = ({ lang, setLang }: { lang: Language, setLang: (l: Language) => void }) => {
