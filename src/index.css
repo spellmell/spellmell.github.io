@@ -23,6 +23,12 @@
     background: linear-gradient(to bottom, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     background-attachment: fixed;
+  }
+  
+  @media (max-width: 1024px) {
+    body {
+      background-attachment: scroll;
+    }
   } 
   
   body::before {
@@ -30,13 +36,13 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-image: url('/img/estrella_yeksemeneb_blanca.svg');
     background-size: 576px;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: 1;
+    z-index: -1;
     pointer-events: none;
     opacity: 0.15;
   }
@@ -51,5 +57,6 @@
 }
 
 .text-gradient {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-600 to-accent-600;
+  @apply bg-clip-text text-transparent bg-gradient-to-r;
+  background-image: linear-gradient(to right, #0284c7, #4f46e5);
 }
