@@ -62,7 +62,7 @@ export const translations: Record<Language, Translation> = {
       subtitle: 'Tailored solutions for modern brands and creators.',
       items: {
         visual3D: { 
-          title: 'Graphic Design & 3D', 
+          title: '3D & Graphic Design', 
           desc: 'Comprehensive visual storytelling blending high-impact graphics with stunning 3D modeling.',
           image: 'img/graphic_design_3d.jpg',
           details: [
