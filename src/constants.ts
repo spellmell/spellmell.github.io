@@ -61,8 +61,8 @@ export const translations: Record<Language, Translation> = {
       title: 'Our Expertise',
       subtitle: 'Tailored solutions for modern brands and creators.',
       items: {
-        visual3D: { 
-          title: '3D & Graphic Design', 
+        visual3D: {
+          title: '3D & Graphic Design',
           desc: 'Comprehensive visual storytelling blending high-impact graphics with stunning 3D modeling.',
           image: 'img/graphic_design_3d.jpg',
           details: [
@@ -70,8 +70,8 @@ export const translations: Record<Language, Translation> = {
             "By integrating Inkscape for vector precision and Cycles for photorealistic rendering, we create unified brand identities that exist in both flat and spatial dimensions. Our workflow is 100% open-source, ensuring flexibility and no vendor lock-in for our clients' digital assets."
           ]
         },
-        games: { 
-          title: 'Video Games Assets', 
+        games: {
+          title: 'Video Games Assets',
           desc: 'High-quality 2D/3D assets, characters, and environments for game developers.',
           image: 'img/game_assets.jpg',
           details: [
@@ -79,8 +79,8 @@ export const translations: Record<Language, Translation> = {
             "Our technical artists use specialized tools like Material Maker and Pixelorama, all running on a rock-solid Linux environment. We focus on performance and modularity, providing assets that are ready to be integrated into any open-source or proprietary game framework."
           ]
         },
-        web: { 
-          title: 'Web Development', 
+        web: {
+          title: 'Web Development',
           desc: 'Future-proof web applications built with speed, scalability, and UX in mind.',
           image: 'img/web_dev.jpg',
           details: [
@@ -139,8 +139,8 @@ export const translations: Record<Language, Translation> = {
       title: 'Nuestra Experiencia',
       subtitle: 'Soluciones a medida para marcas y creadores modernos.',
       items: {
-        visual3D: { 
-          title: 'Diseño Gráfico y 3D', 
+        visual3D: {
+          title: 'Diseño Gráfico y 3D',
           desc: 'Narrativa visual integral que combina gráficos de alto impacto con modelado 3D impresionante.',
           image: 'img/graphic_design_3d.jpg',
           details: [
@@ -148,8 +148,8 @@ export const translations: Record<Language, Translation> = {
             "Al integrar Inkscape para la precisión vectorial y Cycles para el renderizado fotorrealista, creamos identidades de marca unificadas que existen tanto en dimensiones planas como espaciales. Nuestro flujo de trabajo es 100% de código abierto, garantizando flexibilidad y sin dependencia de proveedores para los activos digitales de nuestros clientes."
           ]
         },
-        games: { 
-          title: 'Assets para Videojuegos', 
+        games: {
+          title: 'Assets para Videojuegos',
           desc: 'Activos 2D/3D de alta calidad, personajes y entornos para desarrolladores de juegos.',
           image: 'img/game_assets.jpg',
           details: [
@@ -157,8 +157,8 @@ export const translations: Record<Language, Translation> = {
             "Nuestros artistas técnicos utilizan herramientas especializadas como Material Maker y Pixelorama, todas ejecutándose en un entorno Linux sólido como una roca. Nos enfocamos en el rendimiento y la modularidad, proporcionando activos que están listos para ser integrados en cualquier framework de juegos de código abierto o propietario."
           ]
         },
-        web: { 
-          title: 'Desarrollo Web', 
+        web: {
+          title: 'Desarrollo Web',
           desc: 'Aplicaciones web preparadas para el futuro, creadas pensando en la velocidad, escalabilidad y UX.',
           image: 'img/web_dev.jpg',
           details: [
