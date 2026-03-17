@@ -215,8 +215,8 @@ const Hero = ({ lang }: { lang: Language }) => {
                 <Box size={20} />
               </motion.div>
               <div>
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-tighter">Digital Art</p>
-                <p className="text-sm font-bold">3D & Graphic Design</p>
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-tighter">Do you have an idea? We make it real!</p>
+                <p className="text-sm font-bold">3D & GRAPHIC DESIGN</p>
               </div>
             </div>
           </motion.div>
