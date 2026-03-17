@@ -177,8 +177,8 @@ const Hero = ({ lang }: { lang: Language }) => {
                 <Palette size={20} />
               </motion.div>
               <div>
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-tighter">Design</p>
-                <p className="text-sm font-bold">Pixel Perfect</p>
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-tighter">Web Developing</p>
+                <p className="text-sm font-bold">Front & Backend</p>
               </div>
             </div>
           </motion.div>
@@ -215,8 +215,8 @@ const Hero = ({ lang }: { lang: Language }) => {
                 <Box size={20} />
               </motion.div>
               <div>
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-tighter">3D Assets</p>
-                <p className="text-sm font-bold">Next-Gen Ready</p>
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-tighter">Digital Art</p>
+                <p className="text-sm font-bold">3D & Graphic Design</p>
               </div>
             </div>
           </motion.div>
