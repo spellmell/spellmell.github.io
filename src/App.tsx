@@ -21,14 +21,12 @@ import {
 import { translations, Language } from './constants';
 
 const YeksemenebStar = ({ className = "w-full h-full" }: { className?: string }) => (
-  <a href="#top" className="text-sm font-medium hover:text-brand-500 transition-colors">
   <img 
     src="img/estrella_yeksemeneb_blanca.svg" 
     alt="Spellmell Star" 
     className={className}
     onError={(e) => { e.currentTarget.src = 'https://picsum.photos/seed/star/100/100' }}
   />
-  </a>
 );
 
 const Navbar = ({ lang, setLang }: { lang: Language, setLang: (l: Language) => void }) => {
@@ -177,8 +175,8 @@ const Hero = ({ lang }: { lang: Language }) => {
                 <Palette size={20} />
               </motion.div>
               <div>
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-tighter">Web Developing</p>
-                <p className="text-sm font-bold">Front & Backend</p>
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-tighter">Webdeveloping Art</p>
+                <p className="text-sm font-bold">Because everything starts with what you see, we offer you quality...</p>
               </div>
             </div>
           </motion.div>
@@ -215,8 +213,8 @@ const Hero = ({ lang }: { lang: Language }) => {
                 <Box size={20} />
               </motion.div>
               <div>
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-tighter">Do you have an idea? We make it real!</p>
-                <p className="text-sm font-bold">3D & GRAPHIC DESIGN</p>
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-tighter">3D & Graphic Design</p>
+                <p className="text-sm font-bold">Do you have an idea? We make it real!</p>
               </div>
             </div>
           </motion.div>
